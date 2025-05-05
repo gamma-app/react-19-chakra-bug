@@ -2,7 +2,22 @@
 
 ## Getting Started
 
-See `/src/page.tsx` for the bug reproduction.
+See `/src/page.tsx` for the simple code reproduction example.
+
+## Steps to reproduce
+
+1. `yarn install`
+2. `yarn dev`
+3. Navigate to http://localhost:3001
+
+Expected: Page loads
+Actual: SSR render hangs forever
+
+## To Fix
+
+- Replace `rightIcon` with `rightIconMemoized`
+  OR
+- Patch `<Button>` with the code below.
 
 The source of the error has been traced to `useStyleConfig` in Chakra's @chakra-ui/system:
 
