@@ -11,7 +11,7 @@ See `/src/page.tsx` for the simple code reproduction example.
 3. Navigate to http://localhost:3001
 
 **Expected:** Page loads
-\n\n
+<br />
 **Actual:** SSR render hangs forever
 
 ## To Fix
