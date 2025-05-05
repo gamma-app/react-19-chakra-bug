@@ -10,8 +10,9 @@ See `/src/page.tsx` for the simple code reproduction example.
 2. `yarn dev`
 3. Navigate to http://localhost:3001
 
-Expected: Page loads
-Actual: SSR render hangs forever
+**Expected:** Page loads
+\n\n
+**Actual:** SSR render hangs forever
 
 ## To Fix
 
