@@ -17,7 +17,7 @@ Actual: SSR render hangs forever
 
 - Replace `rightIcon` with `rightIconMemoized`
   OR
-- Patch `<Button>` with the code below.
+- Patch `<Button>` with the code fix below.
 
 The source of the error has been traced to `useStyleConfig` in Chakra's @chakra-ui/system:
 
